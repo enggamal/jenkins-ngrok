@@ -1,0 +1,17 @@
+pipeline {
+    agent { 
+                label 'test-node'
+            }
+    stages {
+        stage('Example Build') {
+            steps {
+
+                sh '''
+
+                
+                docker ps
+                '''
+            }
+        }
+    }
+}
