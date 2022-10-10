@@ -9,7 +9,7 @@ pipeline {
                 sh '''
 
 
-
+                whoami
                 pwd
                 docker ps
                 '''
