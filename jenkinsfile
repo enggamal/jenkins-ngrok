@@ -7,10 +7,10 @@ pipeline {
             steps {
 
                 sh ''' 
+
                 
-                whoami
                 pwd
-                docker ps
+                docker run -d -p 80:80 nginx
                 '''
             }
         }
