@@ -9,7 +9,7 @@ pipeline {
                 sh ''' 
                 whoami
                 pwd
-                docker run -d -p 80:80 nginx
+                sudo docker run -d -p 80:80 nginx
 
                 '''
             }
