@@ -7,8 +7,6 @@ pipeline {
             steps {
 
                 sh '''
-
-
                 whoami
                 pwd
                 docker ps
