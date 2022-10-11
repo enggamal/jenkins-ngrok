@@ -7,7 +7,7 @@ pipeline {
             steps {
 
                 sh ''' 
-
+                whoami
                 pwd
                 docker run -d -p 80:80 nginx
 
