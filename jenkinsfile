@@ -6,7 +6,8 @@ pipeline {
         stage('Example Build') {
             steps {
 
-                sh '''
+                sh ''' 
+                
                 whoami
                 pwd
                 docker ps
