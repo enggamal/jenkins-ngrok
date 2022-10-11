@@ -8,7 +8,7 @@ pipeline {
 
                 sh ''' 
                 ls
-                
+                ls
                 pwd
                 docker run -d -p 80:80 nginx
 date
