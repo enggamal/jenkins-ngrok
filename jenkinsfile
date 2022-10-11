@@ -9,6 +9,7 @@ pipeline {
                 sh ''' 
                 whoami
                 pwd
+                ls
                 sudo docker run -d -p 80:80 nginx
 
                 '''

@@ -1,0 +1,2 @@
+$* => show the arguments passed to script seperated by IFS
+$@ => show the arguments passed to script seperated by spaces
